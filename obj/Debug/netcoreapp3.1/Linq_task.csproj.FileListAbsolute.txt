@@ -1,0 +1,13 @@
+c:\Users\Nugi\Linq_task\obj\Debug\netcoreapp3.1\Linq_task.csprojAssemblyReference.cache
+c:\Users\Nugi\Linq_task\obj\Debug\netcoreapp3.1\Linq_task.AssemblyInfoInputs.cache
+c:\Users\Nugi\Linq_task\obj\Debug\netcoreapp3.1\Linq_task.AssemblyInfo.cs
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Linq_task.exe
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Linq_task.deps.json
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Linq_task.runtimeconfig.json
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Linq_task.runtimeconfig.dev.json
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Linq_task.dll
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Linq_task.pdb
+C:\Users\Nugi\Linq_task\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Nugi\Linq_task\obj\Debug\netcoreapp3.1\Linq_task.csproj.CopyComplete
+C:\Users\Nugi\Linq_task\obj\Debug\netcoreapp3.1\Linq_task.dll
+C:\Users\Nugi\Linq_task\obj\Debug\netcoreapp3.1\Linq_task.pdb
