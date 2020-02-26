@@ -33,6 +33,10 @@ namespace Linq_task
             
             //nomer 3
             // LINQuery3.Items();
+            LINQuery3.furnitures();
+            LINQuery3.electronic();
+            LINQuery3.allbrown();
+            LINQuery3.Purchased_at();
         }
     }
 }

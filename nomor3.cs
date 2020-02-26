@@ -44,6 +44,14 @@ namespace Linq_task
             File.WriteAllText(srcPth, hasil);
         }
 
+        public static void furnitures ()
+        {
+            string srcPth= @"C:\Users\Nugi\Linq_task\nomor3\furnitures.json";
+            var result = temp.Where(a=>a.Type.ToLower().Contains("furnitures"));
+            var hasil = JsonConvert.SerializeObject(result);
+            File.WriteAllText(srcPth, hasil);
+        }
+
         public static void allbrown ()
         {
             string srcPth= @"C:\Users\Nugi\Linq_task\nomor3\all-brown.json";
@@ -55,7 +63,7 @@ namespace Linq_task
         public static void Purchased_at ()
         {
             string srcPth= @"C:\Users\Nugi\Linq_task\nomor3\purchased-at.json";
-            var result = temp.Where(a=>a.Tags.Contains("brown"));
+            var result = temp.Where(a=>a.Purchased_at >= 1579190471).Select(a=>a.Name);
             var hasil = JsonConvert.SerializeObject(result);
             File.WriteAllText(srcPth, hasil);
         }

@@ -97,8 +97,7 @@ namespace Linq_task
         {
             var json = File.ReadAllText(json1);
             var temp = JsonConvert.DeserializeObject<List<UserArticles>>(json);
-            var hasil = temp.SelectMany(x => x.Articles.Where(x => x.Date.ToLocalTime().Year < 2020)
-            .Where(x => x.Date.ToLocalTime().Month < 08).Select(x => x.Title));
+            var hasil = temp.SelectMany(a => a.Articles.Where(a => a.Date.ToLocalTime().Year < 2020).Where(a => a.Date.ToLocalTime().Month < 08).Select(a => a.Title));
 
             return String.Join(',', hasil);
         
